@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cham.tweet",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "tweetappjhipster",
+    "packageName": "com.cham.tweet",
+    "packageFolder": "com/cham/tweet",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTJkZjIzYTFiNjgzMjYxNjk5YmU1ZDk0NDA2OWVmNGMwZjk0MWZkMjViMjg0NmJlYjdkYjhhMzAyOWY3NzMzNTE5ZTJhNTk4YjIwZWJjMjZhODEwNTBlMTM5ZDViNWFmMWI5OTgxM2ZiNzBkMmQwYjBjZmNmMWZjNmIzNzQyZTY=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-feign-client",
+        "version": "1.0.6"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
